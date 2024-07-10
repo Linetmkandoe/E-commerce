@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
 import './index.css'
-import Navbar from './Navbar';
-import SearchBar from './Search';
-import Land from './Landingpage';
-import Footerdisplay from './Footer';
-import Products from './Products';
+import {Navbar} from './Navbar';
+import {Footerdisplay} from './Footer';
+import {Products} from './Products';
+import Landingpage from './Landingpage';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <SearchBar/>
-      <Land/>
+      
+      <Landingpage/>
       <Footerdisplay/>
       <Products/>
 
